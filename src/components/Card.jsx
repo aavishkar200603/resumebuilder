@@ -4,7 +4,7 @@ const Cart = () => {
   return (
     <section
       id="card"
-      className="px-2 mx-auto py-2 md:py-4 text-white bg-gray-900 mb-5 mt-6"
+      className="px-2 mx-auto py-2 md:py-4 text-white bg-blue-500 mb-5 mt-6"
     >
       <div className="container m-auto flex md:text-left text-center md:justify-between justify-center items-center">
         <div>

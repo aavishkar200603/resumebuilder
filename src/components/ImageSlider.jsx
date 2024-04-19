@@ -214,7 +214,7 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div className="flex h-full mx-4 gap-5">
+    <div className="flex h-full mx-4 gap-5 mb-20">
       {/* Left Content (2/3 width) */}
       <div className="flex-2 bg-gray-200 p-8 rounded-xl h-1/2">
         <h2 className="text-2xl font-semibold mb-4">Why Choose Us</h2>

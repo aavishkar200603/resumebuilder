@@ -1,44 +1,170 @@
+
+
+
+// import React from "react";
+
+// const Hero = () => {
+//   return (
+//     <section className="text-center mt-8">
+//       <h2 className="text-3xl font-bold mb-8 ml-2">Steps To Begin</h2>
+//       <div className="flex justify-center gap-32 items-center space-x-8">
+//         {/* Step 1 */}
+//         <div className="relative flex flex-col items-center">
+//           {/* Step 1 Icon */}
+//           <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+//             <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+//               1
+//             </div>
+//           </div>
+//           {/* Step 1 Image */}
+//           <div className="w-300 h-300">
+//             <img
+//               src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step1.png&w=1920&h=undefined&q=100"
+//               alt="Step 1"
+//               width="300"
+//               height="300"
+//             />
+//           </div>
+//           {/* Step 1 Description */}
+//           <p className="text-center color-black mt-4 font font-bold">Pick a CV template.</p>
+//           <div className="h-24 w-64">Choose a sleek design and layout to 
+//             <div className="text-center"> get started.</div>
+//           </div>
+//         </div>
+
+//         {/* Step 2 */}
+//         <div className="relative flex flex-col items-center">
+//           {/* Step 2 Icon */}
+//           <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+//             <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+//               2
+//             </div>
+//           </div>
+//           {/* Step 2 Image */}
+//           <div className="w-300 h-300">
+//             <img
+//               src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step2.png&w=1920&h=undefined&q=100"
+//               alt="Step 2"
+//               width="300"
+//               height="300"
+//             />
+//           </div>
+//           {/* Step 2 Description */}
+//           <p className="text-center color-black mt-4 font font-bold">Fill in the blanks.</p>
+//           <div className="h-24 w-64">Type in a few words. Let the Builder
+//             <div className="text-center"> fill the rest.</div>
+//           </div>
+//         </div>
+
+//         {/* Step 3 */}
+//         <div className="relative flex flex-col items-center">
+//           {/* Step 3 Icon */}
+//           <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+//             <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+//               3
+//             </div>
+//           </div>
+//           {/* Step 3 Image */}
+//           <div className="w-300 h-300">
+//             <img
+//               src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step3.png&w=1920&h=undefined&q=100"
+//               alt="Step 3"
+//               width="300"
+//               height="300"
+//             />
+//           </div>
+//           {/* Step 3 Description */}
+//           <p className="text-center color-black mt-4 font font-bold">Customize your document.</p>
+//           <div className="h-24 w-64">Make it truly yours. Uniqueness in a 
+//             <div className="text-center"> few clicks.</div>
+//           </div>
+//         </div>
+//       </div>  
+//     </section>
+//   );
+// };
+
+// export default Hero;
+
 import React from "react";
 
 const Hero = () => {
   return (
-    <section
-      className="text-green-400 body-font mt-0" // Adjusted margin here
-      style={{
-        background:
-         'url("https://th.bing.com/th/id/R.c1bedb22a175ada744c1842fc246b80e?rik=MiVVa6ZV2x5hSA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fUiNmBwn.jpg&ehk=4zv34RkzPNJIV4tHuZtUoTVpDaBo6YPizl9QS9EMcdw%3d&risl=&pid=ImgRaw&r=0") center/cover',
-      }}
-    >
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-300">
-            Build your professional identity
-            <br className="hidden lg:inline-block" />
-            with our Resume Builder
-          </h1>
-          <p className="mb-8 leading-relaxed text-white">
-            Unlock your career potential with our intuitive resume builder
-            application. Explore a range of modern templates, tailor them to
-            showcase your skills and experience, and take the next step in your
-            professional journey.
-          </p>
-          <div className="flex justify-center">
-            <button className="inline-flex text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg">
-              Click to know more
-            </button>
-            {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Button
-            </button> */}
+    <section className="text-center mt-8 bg-gray-100 p-8">
+      <h2 className="text-3xl font-bold mb-8 ml-2">Steps To Begin</h2>
+      <div className="flex justify-center gap-32 items-center space-x-8">
+        {/* Step 1 */}
+        <div className="relative flex flex-col items-center">
+          {/* Step 1 Icon */}
+          <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+            <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+              1
+            </div>
+          </div>
+          {/* Step 1 Image */}
+          <div className="w-300 h-300">
+            <img
+              src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step1.png&w=1920&h=undefined&q=100"
+              alt="Step 1"
+              width="300"
+              height="300"
+            />
+          </div>
+          {/* Step 1 Description */}
+          <p className="text-center color-black mt-4 font font-bold">Pick a CV template.</p>
+          <div className="h-24 w-64">Choose a sleek design and layout to 
+            <div className="text-center"> get started.</div>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 w-5/6 lg:ml-auto">
-          <img
-            className="object-cover object-center rounded w-2/3 h-2/3 lg:h-full ml-auto"
-            alt="hero"
-            src="https://th.bing.com/th/id/OIP.hrP0A1-Hm966pGJGdlbggAAAAA?rs=1&pid=ImgDetMain"
-          />
+
+        {/* Step 2 */}
+        <div className="relative flex flex-col items-center">
+          {/* Step 2 Icon */}
+          <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+            <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+              2
+            </div>
+          </div>
+          {/* Step 2 Image */}
+          <div className="w-300 h-300">
+            <img
+              src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step2.png&w=1920&h=undefined&q=100"
+              alt="Step 2"
+              width="300"
+              height="300"
+            />
+          </div>
+          {/* Step 2 Description */}
+          <p className="text-center color-black mt-4 font font-bold">Fill in the blanks.</p>
+          <div className="h-24 w-64">Type in a few words. Let the Builder
+            <div className="text-center"> fill the rest.</div>
+          </div>
         </div>
-      </div>
+
+        {/* Step 3 */}
+        <div className="relative flex flex-col items-center">
+          {/* Step 3 Icon */}
+          <div className="absolute top-0 left-0 w-8 h-8 flex justify-center items-center text-white">
+            <div className="w-8 h-8 bg-blue-500 rounded-full flex justify-center items-center">
+              3
+            </div>
+          </div>
+          {/* Step 3 Image */}
+          <div className="w-300 h-300">
+            <img
+              src="https://assets.zety.com/lp/_next/image?url=/blobimages/zty/sem/images/step3.png&w=1920&h=undefined&q=100"
+              alt="Step 3"
+              width="300"
+              height="300"
+            />
+          </div>
+          {/* Step 3 Description */}
+          <p className="text-center color-black mt-4 font font-bold">Customize your document.</p>
+          <div className="h-24 w-64">Make it truly yours. Uniqueness in a 
+            <div className="text-center"> few clicks.</div>
+          </div>
+        </div>
+      </div>  
     </section>
   );
 };

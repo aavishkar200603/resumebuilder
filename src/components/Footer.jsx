@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <footer className="text-gray-400 bg-blue-900 body-font h-52 mb-0">
+      <div className="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg
@@ -64,17 +64,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-900 bg-opacity-75">
+      <div className="bg-blue-900 py-0 ">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-green-500 text-sm text-center sm:text-left">
-            © 2024 Resume Builder —
+          <p className="text-green-400 text-medium text-center sm:text-left">     
+            © 2024 Resume Builder - Team
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"
-              className="text-green-500 ml-1 font-bold"
+              className="text-black ml-1 font-bold"
               target="_blank"
             >
-              Team
+            
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

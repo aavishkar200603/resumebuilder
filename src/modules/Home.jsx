@@ -48,7 +48,7 @@ import "../App.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Front from "../components/Front";
 import SlickImgSlide from "../components/SlickImgSlide";
 import ImageSlider from "../components/ImageSlider";
 import { SliderData } from "../components/SliderData";
@@ -64,12 +64,21 @@ const Home = () => {
         <User />
       ) : (
         <>
+          <Front/>
           <Hero />
+            {/* Add the image below the Hero component */}
+      {/* <div className="flex justify-center mt-8">
+        <img
+          src="https://www.cvwizard.com/api/media/images-i18n/en/how-it-works-step-1.svg" // Replace with the URL of your image
+          alt="Your Image"
+          className="max-w-full h-auto"
+        />
+      </div> */}
           <Cart />
           <SlickImgSlide slidess={SlidesData} />
           <FeatureCart />
           <ImageSlider slides={SliderData} />
-          <StateCart />
+          {/* <StateCart /> */}
         </>
       )}
       

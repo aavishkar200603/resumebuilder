@@ -137,7 +137,7 @@ const FeatureCart = () => {
                   </svg>
                 </div>
                 <h2 className="text-gray-900 text-lg title-font font-medium">
-                  Hitesh:"Exceptional Support and Results"
+                  Shivam:"Exceptional Support and Results"
                 </h2>
               </div>
               <div className="flex-grow">
