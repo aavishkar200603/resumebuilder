@@ -55,6 +55,11 @@ const Header = () => {
           <Link to={"/About"} className="mr-5 hover:text-yellow-500 ">
             About
           </Link>
+
+          <Link to={"/ResumeForm"} className="mr-5 hover:text-yellow-500 ">
+            ResumeForm
+          </Link>
+
           <Link to={"/Context"} className="mr-5 hover:text-yellow-500 ">
           Contact Us
           </Link>
