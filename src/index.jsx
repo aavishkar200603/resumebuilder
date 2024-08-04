@@ -9,8 +9,8 @@ const root = createRoot(document.getElementById('root')); // Use createRoot dire
 
 root.render(
   <Auth0Provider
-    domain="dev-kvoeu1py20ixnbyx.us.auth0.com"
-    clientId="8UmvO7eoJtdSF3LnBoRfnMvsIl2bCWPc"
+    domain="your auth0 domain id"
+    clientId="your autho0 client id"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
